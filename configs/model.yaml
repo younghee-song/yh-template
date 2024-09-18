@@ -1,0 +1,23 @@
+# LINEAR_REGRESSION:
+# RIDGE_REGRESSION:
+#   HYPER_PARAMETERS:
+#     alpha: 1.0
+# LASSO_REGRESSION:
+#   HYPER_PARAMETERS:
+#     alpha: 0.001
+# ELASTICNET_REGRESSION:
+#   HYPER_PARAMETERS:
+#     alpha: 0.001
+#     l1_ratio: 0.7
+# DECISION_TREE:
+#   HYPER_PARAMETERS:
+#     max_depth: 10
+# RANDOM_FOREST:
+#   HYPER_PARAMETERS:
+#     n_estimators: 10
+#     max_depth: 10
+# XGBOOST:
+#   HYPER_PARAMETERS:
+#     learning_rate: 0.1
+#     n_estimators: 100
+#     max_depth: 5
