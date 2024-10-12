@@ -4,6 +4,12 @@ version = "1.0.0"
 description = "pwc project template"
 requires-python = ">=3.11,<3.12"
 readme = "README.md"
+authors = [
+    { name = "KMYU", email = "kwangmyung.yu@pwc.com" } # Optional
+]
+maintainers = [
+    { name = "KMYU", email = "kwangmyung.yu@pwc.com" } # Optional
+]
 
 [build-system]
 # Minimum requirements for the build system to execute, according to PEP-508
@@ -16,7 +22,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.black]
 line-length = 105
-target-version = ["py310"]
+target-version = ["py311"]
 exclude = ""
 
 [tool.isort]
